@@ -1,13 +1,14 @@
-# Bike Sharing Analysis 
+# Bike Sharing Analysis 🚴
 
-## Setup Environment - Anaconda
+## Setup Environment
 ```
-conda create --name main-ds python=3.9
+pip install streamlit
 conda activate main-ds
-pip install -r requirements.txt
+
 ```
 
-## Setup Environment - Shell/Terminal
+## Install Library yang Dibutuhkan
+
 ```
 pandas
 matplotlib
@@ -16,7 +17,7 @@ streamlit
 
 ```
 
-## Run steamlit app
+## Jalankan Aplikasi Streamlit
 ```
 streamlit run dashboard.py
 ```
